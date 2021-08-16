@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   color: white;
+   font-family: sans-serif;
+   flex-direction: column;
+}
+.headings{
+    color: white;
+    background: black;
+    opacity: 0.8;
+    padding: 1rem;
+    margin: 1rem;
+    line-height: 2.3rem;
+    font-family: sans-serif;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    background: coral;
+    opacity: 0.8;
+    border-color: rgb(228, 222, 222);
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 500px;
+    height: 460px;
+}
+
+.mole{
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+.start{
+    background-color: blue; border-radius: 10px; font-size: 25px;
+    padding: 1rem; cursor: pointer;
+    transition: 0.4s;
+}
+.start:hover{
+    background-color: black;
+}
+.unclickable {
+    pointer-events: none;
+  }
+
+  @media (max-width: 720px) {
+
+    .container{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: white;
+        font-family: sans-serif;
+        flex-direction: column;
+     }
+     .headings{
+         color: white;
+         background: black;
+         opacity: 0.8;
+         padding: 1rem;
+         margin: 1rem;
+         line-height: 2.3rem;
+         font-family: sans-serif;
+     }
+    .square{
+        height: 100px;
+        width: 100px;
+        border-style: solid;
+        background: coral;
+        opacity: 0.8;
+        border-color: rgb(228, 222, 222);
+    }
+    
+    .grid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        width: 350px;
+        height: 310px;
+    }
+    .mole{
+        background-image: url('mole.jpg');
+        background-size: cover;
+    }
+    .start{
+        background-color: blue; border-radius: 10px; font-size: 25px;
+        padding: 1rem; cursor: pointer;
+        transition: 0.4s;
+    }
+    .start:hover{
+        background-color: black;
+    }
+    .unclickable {
+        pointer-events: none;
+      }
+
+  }
